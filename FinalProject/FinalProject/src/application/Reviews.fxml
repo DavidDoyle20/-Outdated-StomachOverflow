@@ -44,7 +44,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="homeLogIn" layoutX="1121.0" layoutY="25.0" mnemonicParsing="false" onAction="#logInPage" text="Sign In" />
+            <Button fx:id="homeLogIn" layoutX="1110.0" layoutY="25.0" mnemonicParsing="false" onAction="#logInPage" text="Sign In" />
          </children>
       </Pane>
    </children>

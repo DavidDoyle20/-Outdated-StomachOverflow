@@ -25,9 +25,9 @@
             <Image url="@../../../../Desktop/pic.png" />
          </image>
       </ImageView>
-      <Button fx:id="homeLogIn" layoutX="1171.0" layoutY="25.0" mnemonicParsing="false" onAction="#logInPage" text="Sign In" />
+      <Button fx:id="homeLogIn" layoutX="1171.0" layoutY="35.0" mnemonicParsing="false" onAction="#logInPage" text="Sign In" />
       <TextField layoutX="381.0" layoutY="150.0" prefHeight="51.0" prefWidth="409.0" promptText="Location" />
-      <Button fx:id="searchLocation" layoutX="820.0" layoutY="150.0" mnemonicParsing="false" onAction="#search" text="Search" />
+      <Button fx:id="searchLocation" layoutX="819.0" layoutY="163.0" mnemonicParsing="false" onAction="#search" text="Search" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="240.0" layoutY="250.0" stroke="#ff6624" strokeType="INSIDE" strokeWidth="3.0" width="1300.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a8a8a8" height="233.0" layoutY="490.0" stroke="#ff6624" strokeType="INSIDE" strokeWidth="3.0" width="1300.0" />
       <Text fill="#ff6624" layoutX="441.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Recent Restaurants" wrappingWidth="515.12890625">
@@ -38,7 +38,8 @@
       <Circle fill="#1f93ff00" layoutX="441.0" layoutY="386.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" />
       <Circle fill="#1f93ff00" layoutX="639.0" layoutY="386.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" />
       <Circle fill="#1f93ff00" layoutX="834.0" layoutY="386.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" />
-      <Button fx:id="faq" layoutX="269.0" layoutY="581.0" mnemonicParsing="false" onAction="#faq" text="FAQ" />
-      <Button fx:id="help" layoutX="871.0" layoutY="581.0" mnemonicParsing="false" onAction="#help" text="Help" />
+      <Button fx:id="faq" layoutX="242.0" layoutY="582.0" mnemonicParsing="false" onAction="#faq" prefHeight="49.0" prefWidth="159.0" text="FAQ" />
+      <Button fx:id="help" layoutX="877.0" layoutY="582.0" mnemonicParsing="false" onAction="#help" prefHeight="49.0" prefWidth="159.0" text="Help" />
+      <Button fx:id="faq1" layoutX="540.0" layoutY="582.0" mnemonicParsing="false" onAction="#faq" prefHeight="49.0" prefWidth="159.0" text="About" />
    </children>
 </AnchorPane>

@@ -20,14 +20,14 @@
             <Image url="@../../../../Desktop/pic.png" />
          </image>
       </ImageView>
-      <Text fill="#ff6624" layoutX="527.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign Up">
+      <Text fill="#ff6624" layoutX="528.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign Up">
          <font>
             <Font name="Comic Sans MS" size="63.0" />
          </font>
       </Text>
-      <TextField layoutX="492.0" layoutY="270.0" promptText="Email" />
-      <PasswordField layoutX="491.0" layoutY="373.0" promptText="Password" />
-      <PasswordField layoutX="491.0" layoutY="481.0" promptText="Enter Password Again" />
-      <CheckBox layoutX="438.0" layoutY="572.0" mnemonicParsing="false" text="I Agree to the Terms &amp; Conditions" />
+      <TextField layoutX="567.0" layoutY="266.0" promptText="Email" />
+      <PasswordField layoutX="566.0" layoutY="309.0" promptText="Password" />
+      <PasswordField layoutX="566.0" layoutY="353.0" promptText="Enter Password Again" />
+      <CheckBox layoutX="540.0" layoutY="415.0" mnemonicParsing="false" text="I Agree to the Terms &amp; Conditions" />
    </children>
 </AnchorPane>
