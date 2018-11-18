@@ -111,6 +111,19 @@ public class Controller implements Initializable {
 			e1.printStackTrace();
 		}
 	}
+	
+	public void signUp(ActionEvent e) {
+		Parent root;
+		try {
+			root = FXMLLoader.load(getClass().getResource("SignUp.fxml"));
+			ScenceStack.push(((Node) e.getSource()).getScene());
+			Stage stage = (Stage) ((Node) e.getSource()).getScene().getWindow();
+			stage.setScene(new Scene(root, 1280, 720));
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+	}
 
 	public void help(ActionEvent e) {
 		Parent root;

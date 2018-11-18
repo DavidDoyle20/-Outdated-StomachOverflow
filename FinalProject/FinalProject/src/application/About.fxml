@@ -35,16 +35,13 @@
             <Button fx:id="searchLocation" layoutX="677.0" layoutY="212.0" mnemonicParsing="false" onAction="#search" prefHeight="51.0" prefWidth="134.0" text="Menu" />
             <Button layoutX="874.0" layoutY="212.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="134.0" text="About" />
             <Button fx:id="reviews" layoutX="1062.0" layoutY="212.0" mnemonicParsing="false" onAction="#reviews" prefHeight="51.0" prefWidth="153.0" text="Reviews" />
-            <Button fx:id="logInHome" layoutX="30.0" layoutY="13.0" mnemonicParsing="false" onAction="#homePage" style="-fx-background-color: transparent;" text="Button" textFill="TRANSPARENT">
-               <graphic>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../../Desktop/pic.png" />
-                     </image>
-                  </ImageView>
-               </graphic>
-            </Button>
-            <Button fx:id="homeLogIn" layoutX="1113.0" layoutY="21.0" mnemonicParsing="false" onAction="#logInPage" text="Sign In" />
+            <Button fx:id="logInHome" layoutX="30.0" layoutY="13.0" mnemonicParsing="false" onAction="#homePage" style="-fx-background-color: transparent;" text="Button" textFill="TRANSPARENT" />
+            <Button fx:id="homeLogIn" layoutX="1110.0" layoutY="25.0" mnemonicParsing="false" onAction="#logInPage" text="Sign In" />
+            <ImageView fitHeight="57.0" fitWidth="200.0" layoutX="14.0" layoutY="10.0">
+               <image>
+                  <Image url="@stomachoverflow.png" />
+               </image>
+            </ImageView>
          </children>
       </Pane>
    </children>
