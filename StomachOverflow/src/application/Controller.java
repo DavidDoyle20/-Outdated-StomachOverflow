@@ -63,7 +63,7 @@ public class Controller implements Initializable {
 	public void search(ActionEvent e) {
 		Parent root;
 		try {
-			root = FXMLLoader.load(getClass().getResource("Rest.fxml"));
+			root = FXMLLoader.load(getClass().getResource("RestList.fxml"));
 			ScenceStack.push(((Node) e.getSource()).getScene());
 			Stage stage = (Stage) ((Node) e.getSource()).getScene().getWindow();
 			stage.setScene(new Scene(root, 1280, 720));
