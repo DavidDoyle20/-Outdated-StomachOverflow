@@ -14,11 +14,11 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff6624" height="100.0" stroke="#ff6624" strokeType="INSIDE" width="1280.0" />
       <ImageView fitHeight="57.0" fitWidth="200.0" layoutX="14.0" layoutY="10.0">
          <image>
-            <Image url="@../../../../Desktop/pic.png" />
+            <Image url="@stomachoverflow.png" />
          </image>
       </ImageView>
       <TextField layoutX="330.0" layoutY="25.0" prefHeight="51.0" prefWidth="621.0" promptText="Location" />
-      <Button layoutX="242.0" layoutY="38.0" mnemonicParsing="false" text="Sign In" />
-      <Button layoutX="986.0" layoutY="38.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <Button layoutX="986.0" layoutY="38.0" mnemonicParsing="false" text="Sign In" />
+      <Button layoutX="242.0" layoutY="38.0" mnemonicParsing="false" onAction="#back" text="Back" />
    </children>
 </AnchorPane>
